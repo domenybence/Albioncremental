@@ -1,11 +1,10 @@
 type props = {
     "silverCount": number,
-    "setSilverCount": React.Dispatch<React.SetStateAction<number>>,
     "soldFishCount": number,
-    "setSoldFishCount": React.Dispatch<React.SetStateAction<number>>;
+    "caughtFishCount": number;
 }
 
-const TopBox = ({silverCount, setSilverCount, soldFishCount, setSoldFishCount}: props) => {
+const TopBox = ({silverCount, soldFishCount, caughtFishCount}: props) => {
   return (
     <div className="topBox">
         <p>You currently have <span className="topBoxSpan">{silverCount}</span> silver.</p>

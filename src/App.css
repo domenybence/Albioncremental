@@ -2,8 +2,21 @@ body {
     margin: 10px;
 }
 
+.root {
+
+}
+
 button {
     padding: 3px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .topBox {
@@ -15,9 +28,21 @@ button {
 }
 
 .fishBox {
-    margin: 0px;
+    margin: 0;
 }
 
 .fishCountSpan {
+    font-weight: bold;
+}
+
+.fishUpgradeBox {
+    margin-top: 10px;
+}
+
+.bonusBox {
+    
+}
+
+.bonusBoxSpan {
     font-weight: bold;
 }
