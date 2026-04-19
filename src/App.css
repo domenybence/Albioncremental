@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+}
+
+button {
+    padding: 3px;
+}
+
+.topBox {
+    height: 15dvh;
+}
+
+.topBoxSpan {
+    font-weight: bold;
+}
+
+.fishBox {
+    margin: 0px;
+}
+
+.fishCountSpan {
+    font-weight: bold;
+}
